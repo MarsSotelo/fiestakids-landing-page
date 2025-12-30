@@ -1,0 +1,27 @@
+{
+  "id": "/",
+  "name": "Fiesta Kid's",
+  "short_name": "Fiesta Kid's",
+  "lang": "es-MX",
+  "dir": "ltr",
+  "start_url": "/?utm_source=pwa",
+  "scope": "/",
+  "display_override": ["standalone"],
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#0d1117",
+  "description": "Payasos, animadores, botargas, inflables y más en Puebla.",
+  "categories": ["events", "entertainment", "kids"],
+  "icons": [
+    { "src": "/logos/star_logo_fiesta_kids-192.png",  "sizes": "192x192",  "type": "image/png", "purpose": "any maskable" },
+    { "src": "/logos/star_logo_fiesta_kids-512.png",  "sizes": "512x512",  "type": "image/png", "purpose": "any maskable" },
+    { "src": "/logos/star_logo_fiesta_kids-1024.png", "sizes": "1024x1024","type": "image/png", "purpose": "any" }
+  ],
+  "shortcuts": [
+    { "name": "Contratar ahora", "short_name": "Contratar", "url": "#contacto",
+      "icons": [{ "src": "/logos/star_logo_fiesta_kids-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "WhatsApp", "short_name": "WhatsApp", "url": "https://wa.me/522331106612",
+      "icons": [{ "src": "/logos/star_logo_fiesta_kids-192.png", "sizes": "192x192", "type": "image/png" }] }
+  ]
+}
